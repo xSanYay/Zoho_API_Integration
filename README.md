@@ -53,3 +53,6 @@ curl --location --request POST 'https://accounts.zoho.in/oauth/v2/token' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
 --data-urlencode 'refresh_token=YOUR_REFRESH_TOKEN' \
 --data-urlencode 'client_id=YOUR_CLIENT_ID
+
+```
+# The code in app.py is a leave management hrbot, does basic functions by calling zoho crm.
